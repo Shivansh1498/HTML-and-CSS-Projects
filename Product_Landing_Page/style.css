@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+header{
+    height: 10vh;
+    max-width: 100vw;
+    background-color: #eee;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+header .logo h2{
+    margin-bottom: 9px;
+    cursor: pointer;
+}
+
+header .logo{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+header .logo img{
+    width: 55px;
+    margin-right: 10px;
+}
+
+header nav ul{
+    /* border: 2px solid red; */
+    margin-right: 90px;
+    display: flex;
+    list-style: none;
+    width: 430px;
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+main{
+    width: 100%;
+    min-height: calc(100vh - 11vh - 10vh);
+    max-width: 100vw;
+    background-color: #eee;
+}
+
+main .part1{
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main .part1 h1{
+    font-size: 25px;
+}
+
+main .part1 #email{
+    margin: 20px 0px 15px 0px;
+    width: 260px;
+    height: 25px;
+    padding: 0px 7px;
+}
+
+main .part1 button{
+    text-transform: uppercase;
+    font-weight: 900;
+    background-color: #f1c40f;
+    border: none;
+    padding: 10px 25px;   
+    cursor: pointer;
+}
+
+main .part2{
+    margin-top: 10px;
+    height: 100px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+}
+
+main .part2 .icon{
+    margin-right: 70px;
+}
+
+main .part3{
+    display: flex;
+    justify-content: center;
+}
+
+main .video{
+    margin: 35px 0px 70px 0px;
+}
+
+main .text h3{
+    font-size: 25px;
+}
+
+main .part4{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+main .part4 .card{
+    height: 297px;
+    width: 300px;
+    border: 1px solid black;
+    margin-right: 20px;
+}
+
+main .part4 .card h3{
+    height: 45px;
+    line-height: 35px;
+    text-align: center;
+    background-color: #ddd;
+}
+
+main .part4 .card h4{
+    height: 35px;
+    margin-top: 13px;
+    line-height: 45px;
+    text-align: center;
+    /* background-color: aqua; */
+}
+
+main .part4 .card p{
+    margin-top: 10px;
+    text-align: center;
+}
+
+main .part4 .card button{
+    margin: 25px 0px 0px 103px;
+    background-color: #f1c40f;
+    border: none;
+    border-radius: 3px;
+    font-weight: 500;
+    padding: 10px 20px;
+}
+
+footer{
+    height: 11vh;
+    max-width: 100vw;
+    background-color: #eee;
+}
+
+footer .footer{
+    height: 11vh;
+    background-color: #ddd;
+    width: 60vw;
+    margin: auto;
+}
+
+.footer .fmenu ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 5vh;
+    margin-right: 30px;
+    list-style: none;
+}
+
+.footer .fmenu ul li{
+    margin: 0px 12px;
+}
+
+.footer .fmenu ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer p{
+    margin-left: 620px;
+    color: #5d5b5b;
+}
